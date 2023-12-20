@@ -1,0 +1,18 @@
+{
+  "name": "server/api",
+  "authors": [
+    {
+      "name": "guilherme",
+      "email": "guilherm3vrp@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "mikecao/flight": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "" : "app/"
+    }
+  }
+}
